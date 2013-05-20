@@ -1,0 +1,623 @@
+TClickMe
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Info.plist ClickMe/ClickMe-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Script-304B58A110DAC018002A0835.sh
+cCpResource ClickMe/config.xml build/ClickMe.app/config.xml
+cCpResource ClickMe/Resources/icons/icon-72.png build/ClickMe.app/icon-72.png
+cCpResource ClickMe/Resources/icons/icon.png build/ClickMe.app/icon.png
+cCpResource ClickMe/Resources/icons/icon@2x.png build/ClickMe.app/icon@2x.png
+cCopyStringsFile /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/en.lproj/Localizable.strings ClickMe/Resources/en.lproj/Localizable.strings
+cCpResource ClickMe/Resources/Capture.bundle build/ClickMe.app/Capture.bundle
+cCopyStringsFile /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/es.lproj/Localizable.strings ClickMe/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/MainViewController.xib
+cCopyStringsFile /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/de.lproj/Localizable.strings ClickMe/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/se.lproj/Localizable.strings ClickMe/Resources/se.lproj/Localizable.strings
+cCpResource ClickMe/Resources/splash/Default-Landscape@2x~ipad.png build/ClickMe.app/Default-Landscape@2x~ipad.png
+cCpResource ClickMe/Resources/splash/Default-Landscape~ipad.png build/ClickMe.app/Default-Landscape~ipad.png
+cCpResource ClickMe/Resources/splash/Default-Portrait@2x~ipad.png build/ClickMe.app/Default-Portrait@2x~ipad.png
+cCpResource ClickMe/Resources/splash/Default-Portrait~ipad.png build/ClickMe.app/Default-Portrait~ipad.png
+cCpResource ClickMe/Resources/splash/Default@2x~iphone.png build/ClickMe.app/Default@2x~iphone.png
+cCpResource ClickMe/Resources/splash/Default~iphone.png build/ClickMe.app/Default~iphone.png
+cCpResource ClickMe/Resources/splash/Default-568h@2x~iphone.png build/ClickMe.app/Default-568h@2x~iphone.png
+cCpResource ClickMe/Resources/icons/icon-72@2x.png build/ClickMe.app/icon-72@2x.png
+cProcessPCH /var/folders/c6/9pd21grj1lgbnbh4_7ff_8lnhs6sm8/C/com.apple.Xcode.1637049992/SharedPrecompiledHeaders/ClickMe-Prefix-erjcukdvyqazknhhrjpqyvpkmajf/ClickMe-Prefix.pch.pth ClickMe/ClickMe-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/AppDelegate.o /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/MainViewController.o /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/main.o /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/ClickMe normal i386
+cGenerateDSYMFile /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app.dSYM /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/ClickMe
+cTouch /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000504916AD0000000000000110
+t1346967213
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000050870F2C00000000001EAFC0
+t1351028524
+s2011072
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c0000000050870F2B00000000000C0EF0
+t1351028523
+s790256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c0000000050870F2C0000000000193640
+t1351028524
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000050870F2B00000000000225D0
+t1351028523
+s140752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000050870F2C00000000003D2B80
+t1351028524
+s4008832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000050870F2C0000000000215D60
+t1351028524
+s2186592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050870F2C0000000000228FD0
+t1351028524
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000050870F2C000000000009C220
+t1351028524
+s639520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000050870F2C0000000000085620
+t1351028524
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050870F2D00000000003DCEF0
+t1351028525
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000050870F2E00000000002C6C10
+t1351028526
+s2911248
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000050870F2E00000000000BCB50
+t1351028526
+s772944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000050870F2E00000000001D57A0
+t1351028526
+s1922976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000050870F2F000000000006CC50
+t1351028527
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050870F300000000000AB3D60
+t1351028528
+s11222368
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/AppDelegate.m
+c00000000519A83A70000000000001236
+t1369080743
+s4662
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/MainViewController.m
+c00000000519A83A70000000000001268
+t1369080743
+s4712
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/MainViewController.xib
+c00000000519A83A60000000000001759
+t1369080742
+s5977
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/ClickMe-Prefix.pch
+c00000000519A83A700000000000003BF
+t1369080743
+s959
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/Capture.bundle
+c00000000519A83A6000000000000030E
+t1369080742
+s782
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/de.lproj/Localizable.strings
+c00000000519A83A60000000000000485
+t1369080742
+s1157
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/en.lproj/Localizable.strings
+c00000000519A83A60000000000000470
+t1369080742
+s1136
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/es.lproj/Localizable.strings
+c00000000519A83A6000000000000047D
+t1369080742
+s1149
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/icons/icon-72.png
+c00000000519A83A60000000000001350
+t1369080742
+s4944
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/icons/icon-72@2x.png
+c00000000519A83A60000000000002DBA
+t1369080742
+s11706
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/icons/icon.png
+c00000000519A83A60000000000000F3E
+t1369080742
+s3902
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/icons/icon@2x.png
+c00000000519A83A60000000000001EBD
+t1369080742
+s7869
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/se.lproj/Localizable.strings
+c00000000519A83A60000000000000471
+t1369080742
+s1137
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/splash/Default-568h@2x~iphone.png
+c00000000519A83A600000000000085B1
+t1369080742
+s34225
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000519A83A60000000000012DF4
+t1369080742
+s77300
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/splash/Default-Landscape~ipad.png
+c00000000519A83A60000000000008877
+t1369080742
+s34935
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000519A83A60000000000012B02
+t1369080742
+s76546
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/splash/Default-Portrait~ipad.png
+c00000000519A83A600000000000085E6
+t1369080742
+s34278
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/splash/Default@2x~iphone.png
+c00000000519A83A60000000000007323
+t1369080742
+s29475
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/splash/Default~iphone.png
+c00000000519A83A7000000000000289A
+t1369080743
+s10394
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/config.xml
+c00000000519A83A60000000000000BAB
+t1369080742
+s2987
+
+N/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/main.m
+c00000000519A83A70000000000000459
+t1369080743
+s1113
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app.dSYM
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Capture.bundle
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/ClickMe
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Default~iphone.png
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Info.plist
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/MainViewController.nib
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/PkgInfo
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/config.xml
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/icon-72.png
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/icon-72@2x.png
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/icon.png
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/icon@2x.png
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/ClickMe.LinkFileList
+c00000000519A83E0000000000000018F
+t1369080800
+s399
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Script-304B58A110DAC018002A0835.sh
+c00000000519A83E00000000000000470
+t1369080800
+s1136
+
+N/Users/mmosley/Documents/cordova26/ClickMe/build/libCordova.a
+c00000000519A83E0000000000035DD50
+t1369080800
+s3530064
+
+N/var/folders/c6/9pd21grj1lgbnbh4_7ff_8lnhs6sm8/C/com.apple.Xcode.1637049992/SharedPrecompiledHeaders/ClickMe-Prefix-erjcukdvyqazknhhrjpqyvpkmajf/ClickMe-Prefix.pch.pth
+t2
+s0
+
+NClickMe/ClickMe-Info.plist
+c00000000519A83A700000000000009CF
+t1369080743
+s2511
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8637b760bb4ab741^7d7ab860bb4ab741^---0#1#0#--18"Check dependencies36"0594A11C-CB36-46E5-AA19-653BB8D985F8-
+
+CCompileC build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/AppDelegate.o /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390773611.470256
+e390773611.546807
+r1
+xCompileC
+xbuild/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/AppDelegate.o
+x/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/AppDelegate.m:68:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+o/Users/mmosley/Documents/cordova26/ClickMe/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/AppDelegate.m1f80786bbb4ab741^dbfc8b6bbb4ab741^-673"/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/AppDelegate.m:68:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/mmosley/Documents/cordova26/ClickMe/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-390773611#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-390773611#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@97"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/AppDelegate.m0000000000000000^67#24#67#24#2278#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@88"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/AppDelegate.m0000000000000000^3522"CompileC build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/AppDelegate.o ClickMe/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-generated-files.hmap -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-own-target-headers.hmap -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-all-target-headers.hmap -iquote /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-project-headers.hmap -I/Users/mmosley/Documents/cordova26/ClickMe/build/include -I/Users/mmosley/Documents/cordova26/ClickMe/build/usr/local/lib/include -I/Users/mmosley/Documents/cordova26/ClickMe/build/UninstalledProducts/include -I/Users/mmosley/Documents/cordova26/ClickMe/build -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/DerivedSources/i386 -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/DerivedSources -F/Users/mmosley/Documents/cordova26/ClickMe/build -include /var/folders/c6/9pd21grj1lgbnbh4_7ff_8lnhs6sm8/C/com.apple.Xcode.1637049992/SharedPrecompiledHeaders/ClickMe-Prefix-erjcukdvyqazknhhrjpqyvpkmajf/ClickMe-Prefix.pch -MMD -MT dependencies -MF /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/AppDelegate.dia -c /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/AppDelegate.m -o /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/AppDelegate.o36"64C63BFC-2B97-46C0-BA0A-9C8CA880C26D-
+
+CCompileC build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/MainViewController.o /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390773611.470281
+e390773611.537923
+r1
+xCompileC
+xbuild/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/MainViewController.o
+x/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/MainViewController.mcc7f786bbb4ab741^e1b7896bbb4ab741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/MainViewController.m0000000000000000^3564"CompileC build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/MainViewController.o ClickMe/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-generated-files.hmap -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-own-target-headers.hmap -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-all-target-headers.hmap -iquote /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-project-headers.hmap -I/Users/mmosley/Documents/cordova26/ClickMe/build/include -I/Users/mmosley/Documents/cordova26/ClickMe/build/usr/local/lib/include -I/Users/mmosley/Documents/cordova26/ClickMe/build/UninstalledProducts/include -I/Users/mmosley/Documents/cordova26/ClickMe/build -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/DerivedSources/i386 -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/DerivedSources -F/Users/mmosley/Documents/cordova26/ClickMe/build -include /var/folders/c6/9pd21grj1lgbnbh4_7ff_8lnhs6sm8/C/com.apple.Xcode.1637049992/SharedPrecompiledHeaders/ClickMe-Prefix-erjcukdvyqazknhhrjpqyvpkmajf/ClickMe-Prefix.pch -MMD -MT dependencies -MF /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/MainViewController.dia -c /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/MainViewController.m -o /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/MainViewController.o36"D9B83009-7EBD-4193-92EA-085920940C54-
+
+CCompileC build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/main.o /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390773611.470290
+e390773611.495329
+r1
+xCompileC
+xbuild/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/main.o
+x/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/main.mc381786bbb4ab741^70d07e6bbb4ab741^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/main.m0000000000000000^3464"CompileC build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/main.o ClickMe/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-generated-files.hmap -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-own-target-headers.hmap -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-all-target-headers.hmap -iquote /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-project-headers.hmap -I/Users/mmosley/Documents/cordova26/ClickMe/build/include -I/Users/mmosley/Documents/cordova26/ClickMe/build/usr/local/lib/include -I/Users/mmosley/Documents/cordova26/ClickMe/build/UninstalledProducts/include -I/Users/mmosley/Documents/cordova26/ClickMe/build -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/DerivedSources/i386 -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/DerivedSources -F/Users/mmosley/Documents/cordova26/ClickMe/build -include /var/folders/c6/9pd21grj1lgbnbh4_7ff_8lnhs6sm8/C/com.apple.Xcode.1637049992/SharedPrecompiledHeaders/ClickMe-Prefix-erjcukdvyqazknhhrjpqyvpkmajf/ClickMe-Prefix.pch -MMD -MT dependencies -MF /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/main.dia -c /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/main.m -o /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/main.o36"C05852DF-35A8-44FF-946C-546291A936A7-
+
+CCompileXIB /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/MainViewController.xib
+s390773600.896128
+e390773611.129690
+r1
+xCompileXIB
+x/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compiling /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/MainViewController.xibd07de560bb4ab741^d333216bbb4ab741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/MainViewController.xib0000000000000000^951"CompileXIB ClickMe/Classes/MainViewController.xib    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/MainViewController.nib /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"A42C73FD-2A8C-462F-A495-12C8790B4D2A-
+
+CCopyStringsFile /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/de.lproj/Localizable.strings ClickMe/Resources/de.lproj/Localizable.strings
+s390773600.900602
+e390773600.942678
+r1
+xCopyStringsFile
+x/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/de.lproj/Localizable.strings
+xClickMe/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy ClickMe/Resources/de.lproj/Localizable.strings1dade660bb4ab741^9f56f160bb4ab741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/de.lproj/Localizable.strings0000000000000000^611"CopyStringsFile build/ClickMe.app/de.lproj/Localizable.strings ClickMe/Resources/de.lproj/Localizable.strings    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/de.lproj -- ClickMe/Resources/de.lproj/Localizable.strings36"ED934F9A-05AF-4493-9CF6-818C1E7A7125-
+
+CCopyStringsFile /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/en.lproj/Localizable.strings ClickMe/Resources/en.lproj/Localizable.strings
+s390773600.895904
+e390773600.905387
+r1
+xCopyStringsFile
+x/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/en.lproj/Localizable.strings
+xClickMe/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy ClickMe/Resources/en.lproj/Localizable.strings3f74e560bb4ab741^93c7e760bb4ab741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/en.lproj/Localizable.strings0000000000000000^611"CopyStringsFile build/ClickMe.app/en.lproj/Localizable.strings ClickMe/Resources/en.lproj/Localizable.strings    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/en.lproj -- ClickMe/Resources/en.lproj/Localizable.strings36"8771F124-B05B-40E4-996A-70C475F80AB2-
+
+CCopyStringsFile /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/es.lproj/Localizable.strings ClickMe/Resources/es.lproj/Localizable.strings
+s390773600.895922
+e390773600.903171
+r1
+xCopyStringsFile
+x/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/es.lproj/Localizable.strings
+xClickMe/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy ClickMe/Resources/es.lproj/Localizable.strings0c74e560bb4ab741^bd36e760bb4ab741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/es.lproj/Localizable.strings0000000000000000^611"CopyStringsFile build/ClickMe.app/es.lproj/Localizable.strings ClickMe/Resources/es.lproj/Localizable.strings    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/es.lproj -- ClickMe/Resources/es.lproj/Localizable.strings36"D00D609E-8F9B-482E-9CE6-2F474604BAD5-
+
+CCopyStringsFile /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/se.lproj/Localizable.strings ClickMe/Resources/se.lproj/Localizable.strings
+s390773600.900612
+e390773600.942651
+r1
+xCopyStringsFile
+x/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/se.lproj/Localizable.strings
+xClickMe/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy ClickMe/Resources/se.lproj/Localizable.strings43ace660bb4ab741^a052f160bb4ab741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/se.lproj/Localizable.strings0000000000000000^611"CopyStringsFile build/ClickMe.app/se.lproj/Localizable.strings ClickMe/Resources/se.lproj/Localizable.strings    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/se.lproj -- ClickMe/Resources/se.lproj/Localizable.strings36"79F02CCE-0287-4471-973A-B0C4FE1A70D2-
+
+CCpResource ClickMe/Resources/Capture.bundle build/ClickMe.app/Capture.bundle
+s390773600.895910
+e390773600.971450
+r1
+xCpResource
+xClickMe/Resources/Capture.bundle
+xbuild/ClickMe.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/ClickMe.app/Capture.bundled271e560bb4ab741^bcb1f860bb4ab741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Capture.bundle000000000080d041^617"CpResource ClickMe/Resources/Capture.bundle build/ClickMe.app/Capture.bundle    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/Capture.bundle /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app36"F4AC8B4F-D01D-4EB6-A8C7-B1C054F2279A-
+
+CCpResource ClickMe/Resources/icons/icon-72.png build/ClickMe.app/icon-72.png
+s390773600.895866
+e390773600.899422
+r1
+xCpResource
+xClickMe/Resources/icons/icon-72.png
+xbuild/ClickMe.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Copy build/ClickMe.app/icon-72.pngad6ee560bb4ab741^0f44e660bb4ab741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/icon-72.png000000000080d041^620"CpResource ClickMe/Resources/icons/icon-72.png build/ClickMe.app/icon-72.png    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/icons/icon-72.png /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app36"DBD399E1-AD57-4AE0-8A48-E45FBFBA29A7-
+
+CCpResource ClickMe/Resources/icons/icon-72@2x.png build/ClickMe.app/icon-72@2x.png
+s390773600.914776
+e390773600.918606
+r1
+xCpResource
+xClickMe/Resources/icons/icon-72@2x.png
+xbuild/ClickMe.app/icon-72@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/ClickMe.app/icon-72@2x.png3e3dea60bb4ab741^172aeb60bb4ab741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/icon-72@2x.png000000000080d041^635"CpResource "ClickMe/Resources/icons/icon-72@2x.png" "build/ClickMe.app/icon-72@2x.png"    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/icons/icon-72@2x.png" /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app36"DAF5A7E6-7BB6-4B2B-95C5-1BA2312F1211-
+
+CCpResource ClickMe/Resources/icons/icon.png build/ClickMe.app/icon.png
+s390773600.895883
+e390773600.901558
+r1
+xCpResource
+xClickMe/Resources/icons/icon.png
+xbuild/ClickMe.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy build/ClickMe.app/icon.png656fe560bb4ab741^18cde660bb4ab741^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/icon.png000000000080d041^611"CpResource ClickMe/Resources/icons/icon.png build/ClickMe.app/icon.png    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/icons/icon.png /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app36"E3C554F9-3986-4303-AA8A-0E4B2E262AF3-
+
+CCpResource ClickMe/Resources/icons/icon@2x.png build/ClickMe.app/icon@2x.png
+s390773600.895895
+e390773600.900552
+r1
+xCpResource
+xClickMe/Resources/icons/icon@2x.png
+xbuild/ClickMe.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Copy build/ClickMe.app/icon@2x.pngce6ee560bb4ab741^2a8be660bb4ab741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/icon@2x.png000000000080d041^626"CpResource "ClickMe/Resources/icons/icon@2x.png" "build/ClickMe.app/icon@2x.png"    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/icons/icon@2x.png" /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app36"CA74B2BA-2714-4EF4-AD4A-81399923E021-
+
+CCpResource ClickMe/Resources/splash/Default-568h@2x~iphone.png build/ClickMe.app/Default-568h@2x~iphone.png
+s390773600.913683
+e390773600.917405
+r1
+xCpResource
+xClickMe/Resources/splash/Default-568h@2x~iphone.png
+xbuild/ClickMe.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/ClickMe.app/Default-568h@2x~iphone.pnga9f6e960bb4ab741^51dbea60bb4ab741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Default-568h@2x~iphone.png000000000080d041^673"CpResource "ClickMe/Resources/splash/Default-568h@2x~iphone.png" "build/ClickMe.app/Default-568h@2x~iphone.png"    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/splash/Default-568h@2x~iphone.png" /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app36"82F095DD-7EEB-4092-9B86-8825CA700351-
+
+CCpResource ClickMe/Resources/splash/Default-Landscape@2x~ipad.png build/ClickMe.app/Default-Landscape@2x~ipad.png
+s390773600.901684
+e390773600.910041
+r1
+xCpResource
+xClickMe/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/ClickMe.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/ClickMe.app/Default-Landscape@2x~ipad.pngcae2e660bb4ab741^e8f8e860bb4ab741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Default-Landscape@2x~ipad.png000000000080d041^682"CpResource "ClickMe/Resources/splash/Default-Landscape@2x~ipad.png" "build/ClickMe.app/Default-Landscape@2x~ipad.png"    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/splash/Default-Landscape@2x~ipad.png" /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app36"89C268D6-A5E2-4319-A0C2-0F04B5A0B71D-
+
+CCpResource ClickMe/Resources/splash/Default-Landscape~ipad.png build/ClickMe.app/Default-Landscape~ipad.png
+s390773600.901688
+e390773600.911298
+r1
+xCpResource
+xClickMe/Resources/splash/Default-Landscape~ipad.png
+xbuild/ClickMe.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/ClickMe.app/Default-Landscape~ipad.pngf8e3e660bb4ab741^5a4be960bb4ab741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Default-Landscape~ipad.png000000000080d041^673"CpResource "ClickMe/Resources/splash/Default-Landscape~ipad.png" "build/ClickMe.app/Default-Landscape~ipad.png"    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/splash/Default-Landscape~ipad.png" /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app36"53239C34-EE4C-4FF9-A767-4154D2CACC4B-
+
+CCpResource ClickMe/Resources/splash/Default-Portrait@2x~ipad.png build/ClickMe.app/Default-Portrait@2x~ipad.png
+s390773600.904340
+e390773600.912520
+r1
+xCpResource
+xClickMe/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/ClickMe.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/ClickMe.app/Default-Portrait@2x~ipad.pngc990e760bb4ab741^5f9be960bb4ab741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Default-Portrait@2x~ipad.png000000000080d041^679"CpResource "ClickMe/Resources/splash/Default-Portrait@2x~ipad.png" "build/ClickMe.app/Default-Portrait@2x~ipad.png"    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/splash/Default-Portrait@2x~ipad.png" /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app36"DC9A9097-A7AD-4194-A3A0-62E86548A738-
+
+CCpResource ClickMe/Resources/splash/Default-Portrait~ipad.png build/ClickMe.app/Default-Portrait~ipad.png
+s390773600.906569
+e390773600.913631
+r1
+xCpResource
+xClickMe/Resources/splash/Default-Portrait~ipad.png
+xbuild/ClickMe.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/ClickMe.app/Default-Portrait~ipad.pngee26e860bb4ab741^2ee4e960bb4ab741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Default-Portrait~ipad.png000000000080d041^670"CpResource "ClickMe/Resources/splash/Default-Portrait~ipad.png" "build/ClickMe.app/Default-Portrait~ipad.png"    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/splash/Default-Portrait~ipad.png" /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app36"BFF26808-F6CE-4FF1-AE82-D1B61EE85580-
+
+CCpResource ClickMe/Resources/splash/Default@2x~iphone.png build/ClickMe.app/Default@2x~iphone.png
+s390773600.911176
+e390773600.914784
+r1
+xCpResource
+xClickMe/Resources/splash/Default@2x~iphone.png
+xbuild/ClickMe.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/ClickMe.app/Default@2x~iphone.png4853e960bb4ab741^cf2fea60bb4ab741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Default@2x~iphone.png000000000080d041^658"CpResource "ClickMe/Resources/splash/Default@2x~iphone.png" "build/ClickMe.app/Default@2x~iphone.png"    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/splash/Default@2x~iphone.png" /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app36"D7F424B4-90AC-4301-BECC-87323F7ED8D9-
+
+CCpResource ClickMe/Resources/splash/Default~iphone.png build/ClickMe.app/Default~iphone.png
+s390773600.912425
+e390773600.916022
+r1
+xCpResource
+xClickMe/Resources/splash/Default~iphone.png
+xbuild/ClickMe.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/ClickMe.app/Default~iphone.pngdfa4e960bb4ab741^1381ea60bb4ab741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Default~iphone.png000000000080d041^649"CpResource "ClickMe/Resources/splash/Default~iphone.png" "build/ClickMe.app/Default~iphone.png"    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/Resources/splash/Default~iphone.png" /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app36"63A7AAFF-0557-4B38-95BD-FBC96D50BD39-
+
+CCpResource ClickMe/config.xml build/ClickMe.app/config.xml
+s390773600.895856
+e390773600.899407
+r1
+xCpResource
+xClickMe/config.xml
+xbuild/ClickMe.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Copy build/ClickMe.app/config.xml8b6ee560bb4ab741^1040e660bb4ab741^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/config.xml000000000080d041^585"CpResource ClickMe/config.xml build/ClickMe.app/config.xml    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/config.xml /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app36"8CFA9016-018C-48FE-8075-7E7094DB6D7C-
+
+CGenerateDSYMFile /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app.dSYM /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/ClickMe
+s390773612.703234
+e390773612.872505
+r1
+xGenerateDSYMFile
+x/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app.dSYM
+x/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/ClickMe
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Generating /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app.dSYMac1ab46cbb4ab741^575ddf6cbb4ab741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app.dSYM000000000080d041^595"GenerateDSYMFile build/ClickMe.app.dSYM build/ClickMe.app/ClickMe    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/ClickMe -o /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app.dSYM36"DD7EF2DF-C10B-4E3C-85FF-E9F3C96C6F98-
+
+CLd /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/ClickMe normal i386
+s390773611.553253
+e390773612.696376
+r1
+xLd
+x/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/ClickMe
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Link /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/ClickMe56bc8d6bbb4ab741^b345b26cbb4ab741^---0#0#0#--1623"Ld build/ClickMe.app/ClickMe normal i386    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/mmosley/Documents/cordova26/ClickMe/build -F/Users/mmosley/Documents/cordova26/ClickMe/build -filelist /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/ClickMe.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/mmosley/Documents/cordova26/ClickMe/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/ClickMe36"03B5DF07-E5A3-4E39-8724-12118EA1ACEE-
+
+CPhaseScriptExecution "Copy www directory" /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Script-304B58A110DAC018002A0835.sh
+s390773600.738275
+e390773600.887760
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.125s
+ouser	0m0.033s
+osys	0m0.042s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'f607be60bb4ab741^9946e360bb4ab741^-42"real	0m0.125suser	0m0.033ssys	0m0.042s3(21%IDEActivityLogMessage2@14"real	0m0.125s-390773600#1#14#-0#-----2@14"user	0m0.033s-390773600#15#14#-0#-----2@13"sys	0m0.042s-390773600#29#13#-0#-----0#0#0#--20253"PhaseScriptExecution "Copy www directory" build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Script-304B58A110DAC018002A0835.sh    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv ACTION build    setenv ALTERNATE_GROUP "RGA\\Domain Users"    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER mmosley    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/mmosley/Documents/cordova26/ClickMe/build    setenv BUILD_ROOT /Users/mmosley/Documents/cordova26/ClickMe/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/mmosley/Documents/cordova26/ClickMe/build    setenv CACHE_ROOT /var/folders/c6/9pd21grj1lgbnbh4_7ff_8lnhs6sm8/C/com.apple.Xcode.1637049992    setenv CCHROOT /var/folders/c6/9pd21grj1lgbnbh4_7ff_8lnhs6sm8/C/com.apple.Xcode.1637049992    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/c6/9pd21grj1lgbnbh4_7ff_8lnhs6sm8/C/com.apple.Xcode.1637049992/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/mmosley/Documents/cordova26/ClickMe/build    setenv CONFIGURATION_TEMP_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH ClickMe.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH ClickMe.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/ClickMe.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME ClickMe.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/mmosley/Documents/cordova26/ClickMe/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH ClickMe.app/Executables    setenv EXECUTABLE_FOLDER_PATH ClickMe.app    setenv EXECUTABLE_NAME ClickMe    setenv EXECUTABLE_PATH ClickMe.app/ClickMe    setenv FILE_LIST /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH ClickMe.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/mmosley/Documents/cordova26/ClickMe/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME ClickMe.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER ClickMe/ClickMe-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 597228855    setenv GROUP "RGA\\Domain Users"    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/mmosley/Documents/cordova26/ClickMe/build/include\" \"/Users/mmosley/Documents/cordova26/ClickMe/build/usr/local/lib/include\" \"/Users/mmosley/Documents/cordova26/ClickMe/build/UninstalledProducts/include\" \"/Users/mmosley/Documents/cordova26/ClickMe/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ClickMe/ClickMe-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH ClickMe.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH ClickMe.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/ClickMe.dst/Applications    setenv INSTALL_GROUP "RGA\\Domain Users"    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER mmosley    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/ClickMe.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH ClickMe.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/mmosley/Documents/cordova26/ClickMe/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal/i386/ClickMe.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH ClickMe.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12D78    setenv MAC_OS_X_VERSION_ACTUAL 1083    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0803    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Objects-normal    setenv OBJROOT /Users/mmosley/Documents/cordova26/ClickMe/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH ClickMe.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/PkgInfo    setenv PKGINFO_PATH ClickMe.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10A403    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH ClickMe.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH ClickMe.app/PrivateHeaders    setenv PRODUCT_NAME ClickMe    setenv PRODUCT_SETTINGS_PATH /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/ClickMe-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT ClickMe    setenv PROJECT_DERIVED_FILE_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/DerivedSources    setenv PROJECT_DIR /Users/mmosley/Documents/cordova26/ClickMe    setenv PROJECT_FILE_PATH /Users/mmosley/Documents/cordova26/ClickMe/ClickMe.xcodeproj    setenv PROJECT_NAME ClickMe    setenv PROJECT_TEMP_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build    setenv PUBLIC_HEADERS_FOLDER_PATH ClickMe.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/mmosley/Documents/cordova26/ClickMe/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH ClickMe.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk    setenv SDK_NAME iphonesimulator6.0    setenv SDK_PRODUCT_BUILD_VERSION 10A403    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH ClickMe.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/c6/9pd21grj1lgbnbh4_7ff_8lnhs6sm8/C/com.apple.Xcode.1637049992/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH ClickMe.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/mmosley/Documents/cordova26/ClickMe    setenv SRCROOT /Users/mmosley/Documents/cordova26/ClickMe    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/mmosley/Documents/cordova26/ClickMe/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME ClickMe    setenv TARGET_BUILD_DIR /Users/mmosley/Documents/cordova26/ClickMe/build    setenv TARGET_NAME ClickMe    setenv TARGET_TEMP_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build    setenv TEMP_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build    setenv TEMP_FILES_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build    setenv TEMP_FILE_DIR /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build    setenv TEMP_ROOT /Users/mmosley/Documents/cordova26/ClickMe/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 1637049992    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH ClickMe.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER mmosley    setenv USER_APPS_DIR /Users/mmosley/Applications    setenv USER_LIBRARY_DIR /Users/mmosley/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH ClickMe.app/version.plist    setenv VERSION_INFO_BUILDER mmosley    setenv VERSION_INFO_FILE ClickMe_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:ClickMe  PROJECT:ClickMe-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME ClickMe.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4G1004    setenv XCODE_VERSION_ACTUAL 0451    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0450    setenv YACC yacc    /bin/sh -c /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/Script-304B58A110DAC018002A0835.sh36"A0AC6987-C04E-4DAD-97E1-EB8D60DE5E8B-
+
+CProcessInfoPlistFile /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Info.plist ClickMe/ClickMe-Info.plist
+s390773600.726174
+e390773600.729691
+r1
+xProcessInfoPlistFile
+x/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Info.plist
+xClickMe/ClickMe-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process ClickMe/ClickMe-Info.plist1900ba60bb4ab741^18cdba60bb4ab741^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/ClickMe-Info.plist0000000000000000^642"ProcessInfoPlistFile build/ClickMe.app/Info.plist ClickMe/ClickMe-Info.plist    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility ClickMe/ClickMe-Info.plist -genpkginfo /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app/Info.plist36"DD68F1D9-4E6C-493A-BD3D-07F6B11F11A9-
+
+CProcessPCH /var/folders/c6/9pd21grj1lgbnbh4_7ff_8lnhs6sm8/C/com.apple.Xcode.1637049992/SharedPrecompiledHeaders/ClickMe-Prefix-erjcukdvyqazknhhrjpqyvpkmajf/ClickMe-Prefix.pch.pth ClickMe/ClickMe-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390773611.137662
+e390773611.463103
+r1
+xProcessPCH
+x/var/folders/c6/9pd21grj1lgbnbh4_7ff_8lnhs6sm8/C/com.apple.Xcode.1637049992/SharedPrecompiledHeaders/ClickMe-Prefix-erjcukdvyqazknhhrjpqyvpkmajf/ClickMe-Prefix.pch.pth
+xClickMe/ClickMe-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile ClickMe/ClickMe-Prefix.pch9b59236bbb4ab741^4b8f766bbb4ab741^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/mmosley/Documents/cordova26/ClickMe/ClickMe/ClickMe-Prefix.pch0000000000000000^3531"ProcessPCH /var/folders/c6/9pd21grj1lgbnbh4_7ff_8lnhs6sm8/C/com.apple.Xcode.1637049992/SharedPrecompiledHeaders/ClickMe-Prefix-erjcukdvyqazknhhrjpqyvpkmajf/ClickMe-Prefix.pch.pth ClickMe/ClickMe-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-generated-files.hmap -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-own-target-headers.hmap -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-all-target-headers.hmap -iquote /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/ClickMe-project-headers.hmap -I/Users/mmosley/Documents/cordova26/ClickMe/build/include -I/Users/mmosley/Documents/cordova26/ClickMe/build/usr/local/lib/include -I/Users/mmosley/Documents/cordova26/ClickMe/build/UninstalledProducts/include -I/Users/mmosley/Documents/cordova26/ClickMe/build -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/DerivedSources/i386 -I/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.build/Debug-iphonesimulator/ClickMe.build/DerivedSources -F/Users/mmosley/Documents/cordova26/ClickMe/build --serialize-diagnostics /var/folders/c6/9pd21grj1lgbnbh4_7ff_8lnhs6sm8/C/com.apple.Xcode.1637049992/SharedPrecompiledHeaders/ClickMe-Prefix-erjcukdvyqazknhhrjpqyvpkmajf/ClickMe-Prefix.pch.dia -c /Users/mmosley/Documents/cordova26/ClickMe/ClickMe/ClickMe-Prefix.pch -o /var/folders/c6/9pd21grj1lgbnbh4_7ff_8lnhs6sm8/C/com.apple.Xcode.1637049992/SharedPrecompiledHeaders/ClickMe-Prefix-erjcukdvyqazknhhrjpqyvpkmajf/ClickMe-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/c6/9pd21grj1lgbnbh4_7ff_8lnhs6sm8/C/com.apple.Xcode.1637049992/SharedPrecompiledHeaders/ClickMe-Prefix-erjcukdvyqazknhhrjpqyvpkmajf/ClickMe-Prefix.pch.d36"DCFB8D37-335E-47E8-AF34-900349617D0E-
+
+CTouch /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app
+s390773612.880581
+e390773612.976857
+r1
+xTouch
+x/Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Touch /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app787ee16cbb4ab741^9c14fa6cbb4ab741^---0#0#0#--398"Touch build/ClickMe.app    cd /Users/mmosley/Documents/cordova26/ClickMe    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/mmosley/Documents/cordova26/ClickMe/build/ClickMe.app36"0E80FF14-5971-4653-8242-8BA8AEC1E920-
+

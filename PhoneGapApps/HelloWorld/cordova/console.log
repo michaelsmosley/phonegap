@@ -1,0 +1,20 @@
+2013-05-17 12:05:34.154 HelloWorld[12304:c07] Multi-tasking -> Device: YES, App: YES
+2013-05-17 12:05:34.373 HelloWorld[12304:c07] Resetting plugins due to page load.
+2013-05-17 12:05:35.426 HelloWorld[12304:c07] Finished load of: file:///Users/mmosley/Library/Application%20Support/iPhone%20Simulator/6.0/Applications/45D66854-6D89-46F6-981D-E6B11472568F/HelloWorld.app/www/index.html
+2013-05-17 12:05:35.435 HelloWorld[12304:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-05-17 12:05:35.443 HelloWorld[12304:c07] [LOG] Received Event: deviceready
+2013-05-17 12:59:03.173 HelloWorld[12803:c07] Multi-tasking -> Device: YES, App: YES
+2013-05-17 12:59:03.242 HelloWorld[12803:c07] Resetting plugins due to page load.
+2013-05-17 12:59:03.377 HelloWorld[12803:c07] Finished load of: file:///Users/mmosley/Library/Application%20Support/iPhone%20Simulator/6.0/Applications/45D66854-6D89-46F6-981D-E6B11472568F/HelloWorld.app/www/index.html
+2013-05-17 12:59:03.386 HelloWorld[12803:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-05-17 12:59:03.393 HelloWorld[12803:c07] [LOG] Received Event: deviceready
+2013-05-17 17:01:10.857 HelloWorld[15694:c07] Multi-tasking -> Device: YES, App: YES
+2013-05-17 17:01:11.054 HelloWorld[15694:c07] Resetting plugins due to page load.
+2013-05-17 17:01:11.392 HelloWorld[15694:c07] Finished load of: file:///Users/mmosley/Library/Application%20Support/iPhone%20Simulator/6.0/Applications/45D66854-6D89-46F6-981D-E6B11472568F/HelloWorld.app/www/index.html
+2013-05-17 17:01:11.406 HelloWorld[15694:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-05-17 17:01:11.411 HelloWorld[15694:c07] [LOG] Received Event: deviceready
+2013-05-17 17:01:39.397 HelloWorld[15714:c07] Multi-tasking -> Device: YES, App: YES
+2013-05-17 17:01:39.432 HelloWorld[15714:c07] Resetting plugins due to page load.
+2013-05-17 17:01:39.480 HelloWorld[15714:c07] Finished load of: file:///Users/mmosley/Library/Application%20Support/iPhone%20Simulator/6.0/Applications/45D66854-6D89-46F6-981D-E6B11472568F/HelloWorld.app/www/index.html
+2013-05-17 17:01:39.496 HelloWorld[15714:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+Terminating in response to SpringBoard's termination.
